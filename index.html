@@ -81,7 +81,7 @@
             <p>🕘 Montag – Freitag: 10:00 - 19:00</p>
             <p>🕘 Samstag: 10:00 - 20:00</p>
         
-            <p>📞 Kontakt:<a href="tel:+49015207647548"> 0152 07647548</a></p>
+            <p>📞 Kontakt:<a href="tel:+4915207647548"> 0152 07647548</a></p>
             
         
             <p>Lass uns dein Fahrzeug nach deinen Wünschen gestalten, – wir freuen uns auf dich! 🚗✨</p>
@@ -90,7 +90,58 @@
         </div>
 
     </section>
+<!--
+    <section class="services" id="services">
 
+        <h2 class="heading">Dienstleistungen</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>Folierung</h4>
+                    <p>Ob Farbwechsel, Schutzfolie oder individuelles Design – mit professioneller
+                        Autofolierung bekommt dein Fahrzeug einen einzigartigen 
+                        Look und bleibt gleichzeitig vor Kratzern und Witterung geschützt. 
+                        Jetzt dein Auto aufwerten und auffallen! 🔥🎨</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>Scheibentönung</h4>
+                    <p>Ob Farbwechsel, Schutzfolie oder individuelles Design – mit professioneller
+                        Autofolierung bekommt dein Fahrzeug einen einzigartigen 
+                        Look und bleibt gleichzeitig vor Kratzern und Witterung geschützt. 
+                        Jetzt dein Auto aufwerten und auffallen! 🔥🎨</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>Sternhimmel</h4>
+                    <p>Ob Farbwechsel, Schutzfolie oder individuelles Design – mit professioneller
+                        Autofolierung bekommt dein Fahrzeug einen einzigartigen 
+                        Look und bleibt gleichzeitig vor Kratzern und Witterung geschützt. 
+                        Jetzt dein Auto aufwerten und auffallen! 🔥🎨</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bxl-figma"></i>
+                    <h4>Ambientebeleuchtung</h4>
+                    <p>Ob Farbwechsel, Schutzfolie oder individuelles Design – mit professioneller
+                        Autofolierung bekommt dein Fahrzeug einen einzigartigen 
+                        Look und bleibt gleichzeitig vor Kratzern und Witterung geschützt. 
+                        Jetzt dein Auto aufwerten und auffallen! 🔥🎨</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ -->
     <section class="projects" id="projects">
 
         <h2 class="heading">Unsere Dienstleistungen</h2>
@@ -144,30 +195,35 @@
         <div>
         <h2 class="preis"><a href="#contact">Preise auf Anfrage</a></h2>
         </div>
+        <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-c1872fac-8f5f-4749-9581-db06f614b85b" data-elfsight-app-lazy></div>
     </section>
+
 
     <section class="contact" id="contact">
         <h2 class="heading">Kontaktieren <span>Sie uns</span></h2>
 
-        <form action="https://formspree.io/f/xblgddze" method="POST">
+       <form action="https://formspree.io/f/xblgddze" method="POST">
+  <div class="input-box">
+    <input type="text" name="full_name" placeholder="Vor- und Nachname" aria-label="Name" autocomplete="name" required>
+    <input type="email" name="email" placeholder="E-Mail" aria-label="E-Mail" autocomplete="email" required>
+  </div>
+  <div class="input-box">
+    <input type="tel" name="phone" placeholder="Telefonnummer (optional)" aria-label="Telefonnummer" autocomplete="tel">
+    <input type="text" name="subject" placeholder="Betreff" aria-label="Betreff" required>
+  </div>
 
-            <div class="input-group"></div>
-                <div class="input-box">
-                    <input type="text" name="full_name" placeholder="Full name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                
-                <div class="input-box">
-                    <input type="number" name="phone" placeholder="Phone Number" required>
-                    <input type="text" name="subject" placeholder="Subject" required>
-                </div>
-
-            <div class="input-group-2">
-                <textarea name="message" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-
-        </form>
+  <div class="input-group-2">
+    <textarea name="message" placeholder="Ihre Nachricht" aria-label="Nachricht" rows="8" required></textarea>
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
+    <label class="consent">
+      <input type="checkbox" name="datenschutz" required>
+      Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben einverstanden.
+    </label>
+    <input type="submit" value="Nachricht senden" class="btn">
+  </div>
+</form>
     </section>
 
     <footer class="footer">
@@ -182,7 +238,14 @@
         </div>
 
         <ul class="list">
+<!--           <li>
+                <a href="#">FAQ</a>
+            </li>
 
+            <li>
+                <a href="#services">Dienstleistungen</a>
+            </li>
+-->
             <li>
                 <a href="#about">Über Uns</a>
             </li>

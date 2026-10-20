@@ -500,7 +500,6 @@ section{
   .projects h2{
     font-size: 4rem;
   }
-
   .contact h2{
     font-size: 4rem;
   }
@@ -534,3 +533,6 @@ a[href*="formspree.io"] {
 a[href*="formspree.io"]:hover {
   color: var(--main-color);
 }
+.consent { display: flex; gap: 1rem; align-items: flex-start; text-align: left; font-size: 1.4rem; margin: 1.5rem 0; }
+.consent input { width: auto; margin-top: .4rem; }
+.consent a { color: var(--main-color); text-decoration: underline; }
